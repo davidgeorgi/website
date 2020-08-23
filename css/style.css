@@ -1,0 +1,104 @@
+body {
+  color: white;
+  background-color: black;
+  font-weight: 200;
+}
+
+.navbar {
+  font-size: 48px;
+  background-color: rgba(0, 0, 0, .6);
+  -webkit-backdrop-filter: saturate(180%) blur(6px);
+  backdrop-filter: saturate(180%) blur(6px);
+}
+
+.title {
+  transition-duration: 0.4s;
+}
+
+.title:hover {
+  transform: scale(1.1);
+}
+
+.splashtext {
+  transition-duration: 0.4s;
+}
+
+.splashtext:hover {
+  transform: scale(1.1);
+}
+
+.error {
+  padding-top: 60px;
+  font-size: 100px;
+}
+
+h2 {
+  padding-top: 20px;
+  font-weight: 200;
+}
+
+h3 {
+  padding-top: 20px;
+  font-weight: 200;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 80px;
+  min-height: 200px;
+}
+
+span.icon {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  transition-duration: 0.4s;
+  font-size: 42px;
+  padding: 10px;
+}
+
+span.icon:hover {
+  transform: scale(1.2);
+}
+
+.socialhome {
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+}
+
+.social {
+  padding: 10px;
+}
+
+.links {
+  padding: 10px;
+}
+
+.copyright {
+  padding: 10px;
+}
+
+.footer-links {
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .splashtext {
+    font-size: 96px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .splashtext {
+    font-size: 48px;
+  }
+}
