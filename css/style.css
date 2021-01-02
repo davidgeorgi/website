@@ -1,13 +1,22 @@
+
+html {
+  min-height: 100% !important;
+  height: 100% !important;
+}
+
 body {
   color: white;
-  background-color: black;
+  background: radial-gradient(circle, rgb(0, 70, 140) 0%, rgb(0, 20, 40) 100%);
   font-weight: 200;
+  font-family: Poppins, Roboto, 'Helvetica Neue', sans-serif;
+  min-height: 100% !important;
+  height: 100% !important;
 }
 
 .navbar {
   font-size: 48px;
-  background-color: rgba(0, 0, 0, .6);
-  -webkit-backdrop-filter: saturate(180%) blur(6px);
+  background-color: rgba(0, 0, 0, .7);
+  -webkit-backdrop-filter: saturate(180%) blur(4px);
   backdrop-filter: saturate(180%) blur(6px);
 }
 
@@ -20,7 +29,7 @@ body {
 }
 
 .splashtext {
-  transition-duration: 0.4s;
+  transition-duration: 0.2s;
 }
 
 .splashtext:hover {
@@ -47,21 +56,26 @@ a {
 }
 
 a:hover {
-  color: white;
+  color: rgb(240, 240, 240);
+  transform: scale(1.2);
   text-decoration: none;
 }
 
 .content {
-  margin-top: 80px;
+  padding-top: 100px;
   min-height: 200px;
+}
+
+.mainpage {
+  padding-top: calc(25vh - 64px);
 }
 
 span.icon {
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  transition-duration: 0.4s;
-  font-size: 42px;
+  transition-duration: 0.2s;
+  font-size: 50px;
   padding: 10px;
 }
 
@@ -69,7 +83,7 @@ span.icon:hover {
   transform: scale(1.2);
 }
 
-.socialhome {
+.social-mainpage {
   padding-top: 64px;
   padding-bottom: 64px;
 
@@ -93,7 +107,7 @@ span.icon:hover {
 
 @media screen and (min-width: 768px) {
   .splashtext {
-    font-size: 96px;
+    font-size: 74px;
   }
 }
 
