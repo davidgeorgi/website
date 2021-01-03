@@ -1,21 +1,19 @@
 
 html {
   min-height: 100% !important;
-  height: 100% !important;
 }
 
 body {
   color: white;
-  background: radial-gradient(circle, rgb(0, 70, 140) 0%, rgb(0, 20, 40) 100%);
+  background: rgb(20, 20, 20);
   font-weight: 200;
   font-family: Poppins, Roboto, 'Helvetica Neue', sans-serif;
   min-height: 100% !important;
-  height: 100% !important;
 }
 
 .navbar {
   font-size: 48px;
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, .3);
   -webkit-backdrop-filter: saturate(180%) blur(4px);
   backdrop-filter: saturate(180%) blur(6px);
 }
@@ -86,7 +84,6 @@ span.icon:hover {
 .social-mainpage {
   padding-top: 64px;
   padding-bottom: 64px;
-
 }
 
 .social {
