@@ -7,7 +7,6 @@ body {
   color: white;
   background: rgb(20, 20, 20);
   font-weight: 200;
-  font-family: Poppins, Roboto, 'Helvetica Neue', sans-serif;
   min-height: 100% !important;
 }
 
@@ -19,7 +18,8 @@ body {
 }
 
 .title {
-  transition-duration: 0.4s;
+  transition-duration: 0.1s;
+  font-family: 'Poppins', sans-serif;
 }
 
 .title:hover {
@@ -28,11 +28,17 @@ body {
 
 .splashtext {
   transition-duration: 0.2s;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  background-image: url(https://media4.giphy.com/media/njZPp4pQ0g4fe/giphy.gif?cid=ecf05e47s81zk5t6i7r6yp3tji6sib2roxkx35hfwa0x547o&rid=giphy.gif&ct=g);
+  background-size: cover;
+  background-position: 50% 40%;
+  color: rgb(255, 255, 255, 0.25);
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  letter-spacing: 6px;
 }
 
-.splashtext:hover {
-  transform: scale(1.1);
-}
 
 .error {
   padding-top: 60px;
@@ -40,13 +46,17 @@ body {
 }
 
 h2 {
+  font-family: 'Poppins', sans-serif;
   padding-top: 20px;
-  font-weight: 200;
+  font-weight: bold;
+  font-size: 1.75rem;
 }
 
 h3 {
-  padding-top: 20px;
-  font-weight: 200;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 14px;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 a {
@@ -72,7 +82,7 @@ span.icon {
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  transition-duration: 0.2s;
+  transition-duration: 0.1s;
   font-size: 50px;
   padding: 10px;
 }
@@ -104,12 +114,13 @@ span.icon:hover {
 
 @media screen and (min-width: 768px) {
   .splashtext {
-    font-size: 74px;
+    font-size: 5.5rem;
   }
+
 }
 
 @media screen and (max-width: 767.98px) {
   .splashtext {
-    font-size: 48px;
+    font-size: 3rem;
   }
 }
