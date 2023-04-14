@@ -83,7 +83,7 @@ span.icon {
   display: inline-block;
   text-align: center;
   transition-duration: 0.1s;
-  font-size: 50px;
+  font-size: 70px;
   padding: 10px;
 }
 
@@ -114,13 +114,13 @@ span.icon:hover {
 
 @media screen and (min-width: 768px) {
   .splashtext {
-    font-size: 5.5rem;
+    font-size: 5rem;
   }
 
 }
 
 @media screen and (max-width: 767.98px) {
   .splashtext {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 }
