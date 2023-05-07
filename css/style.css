@@ -27,23 +27,23 @@ body {
 }
 
 .splashtext {
-  transition-duration: 0.2s;
   font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  background-image: url(https://media4.giphy.com/media/njZPp4pQ0g4fe/giphy.gif?cid=ecf05e47s81zk5t6i7r6yp3tji6sib2roxkx35hfwa0x547o&rid=giphy.gif&ct=g);
+  font-weight:900;
+  background-image: url(https://media1.giphy.com/media/7VzgMsB6FLCilwS30v/giphy.gif?cid=ecf05e47sgojfhknq8dobveddiak8qdpa6wzwb7plyc49ys9&ep=v1_gifs_related&rid=giphy.gif&ct=g);
   background-size: cover;
-  background-position: 50% 40%;
-  color: rgb(255, 255, 255, 0.25);
+  background-size: 20%;
+  background-position: 49% 40%;
+  color: rgb(255, 255, 255, 0.3);
   -moz-background-clip: text;
   -webkit-background-clip: text;
-  letter-spacing: 6px;
+  letter-spacing: 20px;
+  transition-duration: 0.1s;
 }
 
-
-.error {
-  padding-top: 60px;
-  font-size: 100px;
+.splashtext:hover {
+  transform: scale(1.1);
 }
+
 
 h2 {
   font-family: 'Poppins', sans-serif;
@@ -64,8 +64,8 @@ a {
 }
 
 a:hover {
-  color: rgb(240, 240, 240);
-  transform: scale(1.2);
+  color: rgb(164, 144, 164);
+  transform: scale(1.1);
   text-decoration: none;
 }
 
@@ -82,13 +82,13 @@ span.icon {
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  transition-duration: 0.1s;
   font-size: 70px;
   padding: 10px;
+  transition-duration: 0.15s;
 }
 
 span.icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .social-mainpage {
@@ -114,13 +114,13 @@ span.icon:hover {
 
 @media screen and (min-width: 768px) {
   .splashtext {
-    font-size: 5rem;
+    font-size: 6.7em;
   }
 
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 767.999px) {
   .splashtext {
-    font-size: 3.5rem;
+    font-size: 4em;
   }
 }
